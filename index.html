@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Baefit</title>
+      <link rel="stylesheet" href="css/simple.min.css">
+      <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+          <nav>
+            <ul>
+              <li>
+                <a href="">Sci-fi Quoter</a> 
+                <small>(<span id="count">0</span> quotes)</small>
+              </li>
+              <li class="select">
+                <select name="menu" id="select">
+                  <option value="All">All</option>
+                  <option value="Day 1">Day 1</option>
+                  <option value="Day 2">Day 2</option>
+                  <option value="Day 3">Day 3</option>
+                  <option value="Day 4">Day 4</option>
+                  <option value="Day 5">Day 5</option>
+                  <option value="Day 6">Day 6</option>
+                </select>
+                <span class="focus"></span>
+              </li>
+              <li>
+                <button onclick="displayQuote()">&plus;</button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main id="main">
+        <!-- component goes here -->   
+        </main>
+        <!-- <div class="controls">
+          <button onclick="addQuote()">+</button>
+          <button onclick="removeQuote()">&ndash;</button>
+        </div> -->
+        <footer>
+          <p>&copy;2023 Bailee Underwood</p>
+        </footer>
+        <!-- loads page scripts -->
+        <script src="js/data.js"></script>
+        <script src="js/logic.js"></script>
+    </body>
+</html>
